@@ -1,0 +1,8 @@
+# Project exclude paths
+/target/
+.idea
+**/*.iml
+# Project exclude paths
+/day1/target/
+/day2/target/
+/day12/target/
