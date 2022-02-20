@@ -64,9 +64,11 @@
 
     <modules>
         <module>day1</module>
-        <module>day12</module>
         <module>day2</module>
+        <module>day3</module>
+        <module>day12</module>
     </modules>
+
 
     <dependencyManagement>
         <dependencies>
@@ -80,6 +82,12 @@
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-stdlib-jdk8</artifactId>
                 <version>${kotlin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.assertj</groupId>
+                <artifactId>assertj-core</artifactId>
+                <version>3.22.0</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
